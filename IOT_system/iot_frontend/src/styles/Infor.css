@@ -1,0 +1,31 @@
+.Infor {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+}
+
+table {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+td {
+    text-align: center;
+    width: 25%; /* Chia đều chiều rộng cho 4 cột */
+}
+
+.slot {
+    background-color: rgb(98, 191, 198);
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
